@@ -10,6 +10,15 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+body {
+  font-family: sans-serif;
+  color: black;
+}
+
+.output {
+  font-family: sans-serif;
+  color: black;
+}
 
 html {
   color: #222;
