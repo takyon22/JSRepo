@@ -1,4 +1,4 @@
-const playerAge = 15;
+const playerAge = 20;
 const favoriteNumber = 67;
 
 let isChild = playerAge <= 12
@@ -7,23 +7,15 @@ let isAdult = playerAge >= 20;
 
 let isOdd = favoriteNumber % 2 !== 0;
 
-function ageMessage(playerAge) {
-  if (playerAge < 12) return 'You are a child.';
-  if (playerAge <= 19) return 'You are a teenager.';
-  return 'You are an adult.';
+if (isChild) {
+  console.log('Nah you a lil ahh jit 😂');
 }
-
-console.log(ageMessage(playerAge));
-
-//if (isChild) {
-//  console.log('Nah you a lil ahh jit 😂');
-//}
-//if (isTeen) {
-//  console.log('You a teen boi');
-//}
-//if (isAdult) {
-//  console.log('You grown na..🫡')
-//}
+if (isTeen) {
+  console.log('You a teen boi');
+}
+if (isAdult) {
+  console.log('You grown na..🫡')
+}
 
 if (playerAge > favoriteNumber) {
   console.log('The greater number is: ' + playerAge);
