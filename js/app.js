@@ -1,50 +1,17 @@
-const playerAge = 20;
-const favoriteNumber = 67;
 
-let isChild = playerAge <= 12
-let isTeen = playerAge >= 13 && playerAge <= 19;
-let isAdult = playerAge >= 20;
-
-let isOdd = favoriteNumber % 2 !== 0;
-
-if (isChild) {
-  console.log('Nah you a lil ahh jit 😂');
-}
-if (isTeen) {
-  console.log('You a teen boi');
-}
-if (isAdult) {
-  console.log('You grown na..🫡')
-}
-
-if (playerAge > favoriteNumber) {
-  console.log('The greater number is: ' + playerAge);
-} else {
-  console.log('The greater number is: ' + favoriteNumber);
-}
-
-
-if (isOdd) {
-  console.log("Your favorite number is an odd number.");
-} else {
-  console.log('Your favorite number is an even number.')
-}
-
-
-//console.log('You are a child: ' + isChild);
-//console.log('You are a teenager: ' + isTeen);
-//console.log('You are an adult: ' + isAdult);
+const h1 = document.getElementById("h11");
+const para1 = document.getElementById("para1");
+const main = document.getElementById("wrapper");
+const button = document.getElementById("button");
 
 
 
-//let numberBottles = 10;
-//const line1 = 'green bottles hanging on the wall.';
-//const line2 = 'And if one green bottle, should accidentally fall, there will be ';
 
-//console.log(numberBottles + " " + line1 + " " + numberBottles + " " + line1);
-//console.log(line2 + --numberBottles + " " + line1);
 
-//const playerName = 'Axel';
 
-//document.getElementById("output").innerHTML =
-  //"<p>Hej, <strong>" + playerName + "</strong>.</p>";
+h1.innerText = "Wagwan rude bwoi!";
+
+para1.innerText = "Bombaclarttt...";
+para1.style.color = "#FE6BB3";
+
+

@@ -1,7 +1,7 @@
 const playerName = "Axel";
-let playerAge = 25;
+let playerAge = 11;
 const rightHand = 'Sword';
-const leftHand = 'Shield';
+const leftHand = '';
 
 
 function startPlayer(playerAge) {
@@ -17,7 +17,6 @@ function startPlayer(playerAge) {
 function ageCheck(playerAge) {
   if (playerAge < 12) {
     console.log("You are too young for this quest, my child.");
-    return;
   } else {
     console.log("Let's start this quest!")
   }
