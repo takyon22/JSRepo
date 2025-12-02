@@ -3,6 +3,7 @@ const h1 = document.getElementById("h11");
 const scoreshow = document.getElementById("score");
 const button = document.getElementById("button");
 const headertext = document.getElementById("headertext");
+const wrapper = document.getElementById("wrapper");
 
 let score = 0;
 
