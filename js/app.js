@@ -11,22 +11,19 @@ button.addEventListener("click", buttonClick);
 
 function buttonClick() {
   score++;
-  if (score > 39) {
-    scoreshow.innerText = "Kakor: " + score + " 😳";
+  if (score > 49) {
+    scoreshow.innerText = "Kakor: " + score;
     scoreshow.style.color = "#ff5454";
-    scoreshow.style.fontWeight = "900";
-    headertext.innerText = "Walla ja kommer busssss......";
+    headertext.innerText = "Cookie Pro 😳";
   } else if (score > 29) {
-    scoreshow.innerText = "Kakor: " + score + " 😎";
+    scoreshow.innerText = "Kakor: " + score;
     scoreshow.style.color = "#f56dfa";
-    scoreshow.style.fontWeight = "bolder";
-    headertext.innerText = "Du är så bra på att klicka babe";
+    headertext.innerText = "Cookie Enthusiast 😎";
   } else if (score > 19) {
-    scoreshow.innerText = "Kakor: " + score + " 😍";
-    scoreshow.style.fontWeight = "bold";
+    scoreshow.innerText = "Kakor: " + score;
   } else if (score > 9) {
     scoreshow.innerText = "Kakor: " + score;
-    headertext.innerText = "Fortsätt klicka babe";
+    headertext.innerText = "Cookie Rookie 😍";
   } else {
     scoreshow.innerText = "Kakor: " + score;
   }

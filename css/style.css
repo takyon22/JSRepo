@@ -13,10 +13,12 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20px;
+  font-size: 24px;
 }
 
 #headertext{
   font-family: "Droid Sans Mono", monospace;
+  font-size: 20px;
 }
 
 .main{
@@ -25,7 +27,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 75px;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 
@@ -50,7 +52,11 @@ body {
 }
 
 #score {
-  font-family: "Droid Sans Mono", monospace;
+  font-family: monospace;
+  font-weight: lighter;
   font-size: 24px;
-
+  background-color: #243c65;
+  box-shadow: 4px 4px 15px #1c1c1c;
+  border-radius: 25px;
+  padding: 25px;
 }
