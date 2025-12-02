@@ -57,20 +57,21 @@ body {
   width: 225px;
   height: 225px;
   border: none;
-  filter: drop-shadow(0 10px 20px rgba(0,0,0,0.4));
-  transition: 0.5s;
+  filter: drop-shadow(0 1.5px 2px rgb(0, 0, 0));
+  transition: 0.2s;
 }
 
 #button:hover {
   transform: scale(1.05);
   cursor: pointer;
-  filter: drop-shadow(0 10px 20px rgb(162, 193, 255));
-  transition: 0.5s;
+  filter: drop-shadow(0 5px 10px rgb(0, 0, 0));
+  transition: 0.2s;
 }
 
 #button:active {
+  filter: drop-shadow(0 5px 10px rgb(162, 193, 255));
   transform: scale(0.99);
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 #score {
