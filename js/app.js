@@ -2,6 +2,7 @@
 const h1 = document.getElementById("h11");
 const scoreshow = document.getElementById("score");
 const button = document.getElementById("button");
+const headertext = document.getElementById("headertext");
 
 let score = 0;
 
@@ -9,25 +10,24 @@ let score = 0;
 button.addEventListener("click", buttonClick);
 
 function buttonClick() {
-
   score++;
-
   if (score > 39) {
-    scoreshow.innerText = "Score: " + score + "! Ehhhh....?";
+    scoreshow.innerText = "Kakor: " + score + " 😳";
     scoreshow.style.color = "#ff5454";
-    scoreshow.style.fontweight = "1000";
+    scoreshow.style.fontWeight = "900";
+    headertext.innerText = "Walla ja kommer busssss......";
   } else if (score > 29) {
-    scoreshow.innerText = "Score: " + score + "! OMFG!!!!";
+    scoreshow.innerText = "Kakor: " + score + " 😎";
     scoreshow.style.color = "#f56dfa";
-    scoreshow.style.fontweight = "800";
+    scoreshow.style.fontWeight = "bolder";
+    headertext.innerText = "Du är så bra på att klicka babe";
   } else if (score > 19) {
-    scoreshow.innerText = "Score: " + score + "! Du e galen!";
-    scoreshow.style.color = "#8754FF";
-    scoreshow.style.fontweight = "bold";
+    scoreshow.innerText = "Kakor: " + score + " 😍";
+    scoreshow.style.fontWeight = "bold";
   } else if (score > 9) {
-    scoreshow.innerText = "Score: " + score + "! Wow! Fortsätt!";
-    scoreshow.style.fontweight = "bold";
+    scoreshow.innerText = "Kakor: " + score;
+    headertext.innerText = "Fortsätt klicka babe";
   } else {
-    scoreshow.innerText = "Score: " + score;
+    scoreshow.innerText = "Kakor: " + score;
   }
 }

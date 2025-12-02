@@ -1,18 +1,56 @@
 body {
-  font-family: sans-serif;
-  color: black;
+  font-family: "Comic Sans MS", cursive;
+  color: white;
+  background-image: url('../img/bg.jpg');
+  background-position: center;
+  background-size: auto;
+  text-shadow: 2px 2px #292929;
 }
+
+#header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#headertext{
+  font-family: "Droid Sans Mono", monospace;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 75px;
+  margin-top: 150px;
+}
+
 
 #button{
   background-image: url("/img/kaka.png");
   background-color: transparent;
   background-size: cover;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border: none;
+  transition: transform 0.2s;
+  filter: drop-shadow(0 10px 20px rgba(0,0,0,0.4));
+}
+
+#button:hover {
+  transform: scale(1.05);
   transition: transform 0.2s;
 }
 
 #button:active {
-  transform: scale(0.85);
+  transform: scale(0.95);
+}
+
+#score {
+  font-family: "Droid Sans Mono", monospace;
+  font-size: 24px;
+
 }
