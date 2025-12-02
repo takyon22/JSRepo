@@ -12,13 +12,13 @@ body {
 }
 
 #wrapper {
-  background-color: rgba(184, 209, 255, 0.25);
+  background-color: rgba(184, 209, 255, 0.13);
   width: 35%;
   border-radius: 25px;
   height: 100%;
   padding: 50px;
   margin: 30px auto;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.3);
 }
 
 
