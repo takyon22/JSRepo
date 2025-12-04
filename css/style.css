@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
   background-image: url('../img/bg.jpg');
   background-position: center;
@@ -78,7 +78,7 @@ body {
   font-weight: lighter;
   font-size: 24px;
   background-color: #2c4878;
-  box-shadow: 0px 5px 20px #15233c;
+  box-shadow: 0px 0px 30px #15233c;
   border-radius: 10000px;
   padding: 15px;
 }
