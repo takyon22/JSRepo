@@ -1,9 +1,6 @@
-
-const h1 = document.getElementById("h11");
 const scoreShow = document.getElementById("score");
 const button = document.getElementById("button");
 const headerText = document.getElementById("headertext");
-const wrapper = document.getElementById("wrapper");
 
 let score = 0;
 
